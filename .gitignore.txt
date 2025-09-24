@@ -1,0 +1,38 @@
+
+---
+
+### 📄 `.gitignore`
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode / devcontainer configs
+.vscode/
+.devcontainer/
+
+# Egg and build artifacts
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Jupyter notebooks
+.ipynb_checkpoints
